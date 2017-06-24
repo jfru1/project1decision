@@ -10,13 +10,11 @@ UX:
 
 		When users enter a location into the box and press enter a map of the target location will fade in. A pin will be placed in the initial option.
 
-	When input has been collected, the page transitions to the map phase. On this page there is a button for declining the option, it will load a new one. On the right side of the screen, there will be an expandable menu for saving a breakfast, lunch, and dinner option. 
+	When input has been collected, the page transitions to the map phase. On this page there is a button for declining the option, it will load a new one. On the right side of the screen, there will be an expandable menu for reviewing past selections. 
 
 Simple inputs:
 	Location selection
 		Users will input a physical location based on an address.
-	*Pick dates off calendar
-		Users will be able to select a pair of dates on a set of calendars.
 
 Aggregation:
 	Top rated
@@ -30,8 +28,6 @@ Suggestion style:
 	Reroll
 		For randomized option; just picks another off of the list.
 			(might have to find some way to mark a place as 'seen' which could be reset per user session)
-
-		*Pin/Star one you like. a Maybe list of TWO items
 
 Memory:
 	Appends places you've been. Keeps a history.
