@@ -1,6 +1,8 @@
 Places to eat
 Decisionless
 
+Our application is designed to allow a user to enter their geographical location and receive a suggestion for a place to eat. 
+
 UX:
 	On load, the screen is white with a button and a box with "Where are you going?" in it. 
 
@@ -37,3 +39,18 @@ Memory:
 Search Modifier:
 	Based on entered location, five mile radius.
 		*if few options: Dummy response "You're in cow country etc etc"
+
+Stuff we need:
+
+Cookie System to remember sessions via facebook API
+HTML + CSS
+API handler pulls in map
+Validation of addresses via API
+API to pull in eateries + reviews
+Randomizer for eateries
+Database manipulations for ordering of options
+Database manipulations for 'I've seen this option before'
+Displaying stuff on the map
+A restart process
+A reroll function
+*Thumbs up/thumbs down
