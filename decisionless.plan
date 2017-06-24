@@ -1,24 +1,39 @@
 Places to eat
 Decisionless
 
-Simple inputs:
-	city list selection
-	pick dates off calendar
+UX:
+	On load, the screen is white with a button and a box with "Where are you going?" in it. 
 
-aggregation:
-	top rated
-	randomized
+		When the button is pressed, it fades a map in as the background based on the user's fetched geolocation and puts down a pin to select their initial option.
+
+		When users enter a location into the box and press enter a map of the target location will fade in. A pin will be placed in the initial option.
+
+	When input has been collected, the page transitions to the map phase. On this page there is a button for declining the option, it will load a new one. On the right side of the screen, there will be an expandable menu for saving a breakfast, lunch, and dinner option. 
+
+Simple inputs:
+	Location selection
+		Users will input a physical location based on an address.
+	*Pick dates off calendar
+		Users will be able to select a pair of dates on a set of calendars.
+
+Aggregation:
+	Top rated
+		Must have at least ten reviews, listed in order of stars (using google or yelp)
+	Randomized
+		Selects a random place off of the whole list.
 
 Suggestion style:
-	reroll 
-	queue
+	Queue
+		For the top rated option; all options are put in a stack.
+	Reroll
+		For randomized option; just picks another off of the list.
+			(might have to find some way to mark a place as 'seen' which could be reset per user session)
+
 		*Pin/Star one you like. a Maybe list of TWO items
 
 Memory:
-	One for each meal of the day, B L D
+	One slot on a menu for each meal of the day. Breakfast, Lunch, Dinner
 
 Search Modifier:
-	City centers only, five mile radius
-		maybe hotels later?
+	Based on entered location, five mile radius.
 		*if few options: Dummy response "You're in cow country etc etc"
-
