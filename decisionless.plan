@@ -4,7 +4,7 @@ Decisionless
 Our application is designed to allow a user to enter their geographical location and receive a suggestion for a place to eat. 
 
 UX:
-	On load, the screen is white with a button and a box with "Where are you going?" in it. 
+	On load, the screen is white with a button and a box with "Where are you?" in it. 
 
 		When the button is pressed, it fades a map in as the background based on the user's fetched geolocation and puts down a pin to select their initial option.
 
@@ -34,7 +34,7 @@ Suggestion style:
 		*Pin/Star one you like. a Maybe list of TWO items
 
 Memory:
-	One slot on a menu for each meal of the day. Breakfast, Lunch, Dinner
+	Appends places you've been. Keeps a history.
 
 Search Modifier:
 	Based on entered location, five mile radius.
