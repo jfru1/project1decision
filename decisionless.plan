@@ -1,0 +1,24 @@
+Places to eat
+Decisionless
+
+Simple inputs:
+	city list selection
+	pick dates off calendar
+
+aggregation:
+	top rated
+	randomized
+
+Suggestion style:
+	reroll 
+	queue
+		*Pin/Star one you like. a Maybe list of TWO items
+
+Memory:
+	One for each meal of the day, B L D
+
+Search Modifier:
+	City centers only, five mile radius
+		maybe hotels later?
+		*if few options: Dummy response "You're in cow country etc etc"
+
